@@ -8,13 +8,13 @@
 
 numbers = list(range(1,1000))
 
-result = []
+multiples = []
 
 for items in numbers:
     if items % 3 == 0:
-        result.append(items)
+        multiples.append(items)
     elif items % 5 == 0:
-        result.append(items)
+        multiples.append(items)
 
-multiple = sum(result)
-print(multiple)
+sumOfMultiples = sum(multiples)
+print(sumOfMultiples)
