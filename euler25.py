@@ -14,4 +14,4 @@ while len(str(fibs[-1])) < 1000:
 
 print("The answer is " + str(index[-1]))
 
-print("It took " + str(time.time() - start) + " seconds")
+print("This took " + str(time.time() - start) + " seconds")
