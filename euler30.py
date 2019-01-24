@@ -25,4 +25,5 @@ for i in range(1000000):
 
 ans = sum(fifthNumbers) - 1
 print("The answer is:" +  str(ans))
-print("It took " + str(time.time() - start) + " seconds")
+
+print("This took " + str(time.time() - start) + " seconds")
