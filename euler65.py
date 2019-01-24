@@ -38,3 +38,5 @@ num = a[0]
 digits = map(int, str(num))
 final = sum(digits)
 print(final)
+
+print("This took " + str(time.time() - start) + " seconds")
