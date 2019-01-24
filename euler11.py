@@ -47,4 +47,4 @@ print(horSum)
 print(diagSum1)
 print(diagSum2)
 
-print("It took " + str(time.time() - start) + " seconds")
+print("This took " + str(time.time() - start) + " seconds")
