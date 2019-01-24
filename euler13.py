@@ -22,3 +22,5 @@ for x in numbersStr:
     numbersInt.append(int(x))
 
 print(sum(numbersInt))
+
+print("This took " + str(time.time() - start) + " seconds")
