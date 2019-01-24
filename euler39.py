@@ -5,8 +5,9 @@
 # {20,48,52}, {24,45,51}, {30,40,50}
 # For which value of p < 1000, is the number of solutions maximised?
 
+import time
+start = time.time()
 
-##c=a2+b2
 import numpy as np
 
 numP = 1000
