@@ -3,7 +3,6 @@
 # Evaluate the sum of all the amicable numbers under 10000.
 
 import time, math
-
 start = time.time()
 
 amicable_nums = set()
