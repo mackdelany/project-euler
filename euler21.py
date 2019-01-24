@@ -24,4 +24,4 @@ for i in range(1, 10000):
             amicable_nums.update([i, j])
 
 print(sum(amicable_nums))
-print("It took " + str(time.time() - start) + " seconds")
+print("This took " + str(time.time() - start) + " seconds")
