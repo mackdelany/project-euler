@@ -6,8 +6,10 @@
 #The sum of these multiples is 23.
 #Find the sum of all the multiples of 3 or 5 below 1000.
 
-numbers = list(range(1,1000))
+import time
+start = time.time()
 
+numbers = list(range(1,1000))
 multiples = []
 
 for items in numbers:
