@@ -4,14 +4,16 @@
 # to move to the right and down, how many possibe routes are there
 # to the bottom right corner?
 
+import time
+import numpy as np
+
+start = time.time()
+
 gridSize = 20
 numMoves = gridSize*2
 
 ## there has to be at least 20 rights and 20 downs
-
 ## take right to be 1, down to be 0
-
-import numpy as np
 
 base = np.zeros(numMoves)
 
@@ -20,7 +22,6 @@ routeCount = 0
 routes = np.zeros(0)
 
 while routeEnd = 0:
-
 
     rightCount = 0
     downCount = 0
