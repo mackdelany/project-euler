@@ -18,3 +18,5 @@ def largest_prime_factor(n):
 
 ans = largest_prime_factor(bigPrime)
 print(ans)
+
+print("This took " + str(time.time() - start) + " seconds")
