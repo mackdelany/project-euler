@@ -5,9 +5,9 @@
 # to the bottom right corner?
 
 import time
-import numpy as np
-
 start = time.time()
+
+import numpy as np
 
 gridSize = 20
 numMoves = gridSize*2
@@ -38,3 +38,5 @@ while routeEnd = 0:
     routeCount += 1
 
 print(routes)
+                       
+print("This took " + str(time.time() - start) + " seconds")
