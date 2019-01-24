@@ -13,7 +13,6 @@ import numpy as np
 numP = 1000
 ans = np.zeros((numP,2))
 
-
 for p in range(numP):
     count = 0
     ans[p,0] = p + 1
@@ -29,7 +28,7 @@ for p in range(numP):
                 if ans[p,1] == 28:
                     print(p)
 
-
 ans1 = np.argmax(np.max(x, axis=1))
-
 print(ans1)
+
+print("This took " + str(time.time() - start) + " seconds")
