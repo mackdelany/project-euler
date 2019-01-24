@@ -4,6 +4,9 @@
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million,
 #find the sum of the even-valued terms.
 
+import time
+start = time.time()
+
 numbers = list(range(1,1000))
 fib = [1 , 2]
 
