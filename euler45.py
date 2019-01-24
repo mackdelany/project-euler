@@ -29,3 +29,5 @@ while True:
         print triangle
         break
     i += 1
+
+print("This took " + str(time.time() - start) + " seconds")
