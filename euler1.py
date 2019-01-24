@@ -20,3 +20,5 @@ for items in numbers:
 
 sumOfMultiples = sum(multiples)
 print(sumOfMultiples)
+
+print("This took " + str(time.time() - start) + " seconds")
