@@ -33,9 +33,5 @@ for i in range(-13,1):
 
 print('The maximum possible value is {}'.format(value_triangle[0,0]))
 
-print(value_triangle)
-
-print(base_triangle)
-
 
 
